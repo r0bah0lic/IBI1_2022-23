@@ -1,0 +1,15 @@
+#question: Is the average DALYs rate of Albania higher than that of Afghanistan's?
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+os.chdir("C:/Users/20815/Desktop/IBI1_2023-24/Practical7")
+dalys_data = pd.read_csv("dalys-rate-from-all-causes(1).csv")
+Alb = dalys_data.loc[dalys_data['Entity']=='Albania']
+Afg = dalys_data.loc[dalys_data['Entity']=='Afghanistan']
+Alb_mean = int(Alb['DALYs'].mean())
+Afg_mean = int(Afg['DALYs'].mean())
+if Alb_mean >= Afg_mean :
+    print('Albania's is higher')
+if Afg_mean >= Alb_mean :
+    print('Afghanistan's is higher')
