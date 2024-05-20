@@ -2,7 +2,7 @@ import xml.sax
 from collections import defaultdict
 import matplotlib.pyplot as plt
 from datetime import datetime
-
+start_time_sax = datetime.now()
 class GOHandler(xml.sax.ContentHandler):
     def __init__(self):
         self.counts = defaultdict(int)
@@ -27,7 +27,6 @@ class GOHandler(xml.sax.ContentHandler):
 handler = GOHandler()
 parser = xml.sax.make_parser()
 parser.setContentHandler(handler)
-start_time_sax = datetime.now()
 parser.parse('C:/Users/20815/Desktop/IBI1_2023-24/Practical14/go_obo.xml')
 end_time_sax = datetime.now()
 sax_duration = end_time_sax - start_time_sax
@@ -42,4 +41,5 @@ plt.xlabel('Ontologies')
 plt.ylabel('Term Frequency')
 plt.title('GO Terms Distribution by Ontology (SAX)')
 plt.show()
-# SAX API took: 0:00:01.621827
+# SAX API took: 0:00:01.986772
+# SAX API is faster.
