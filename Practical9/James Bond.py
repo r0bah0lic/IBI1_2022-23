@@ -9,6 +9,6 @@ def Bond(year):  #The Bond function
         return('Daniel Craig')
     else:
         return('OOPS!NO BOND')
-birthyear= int(input('输入出生年份'))  #example on calling
+birthyear= int(input('Your birth year:'))  #example on calling
 result= Bond(birthyear)
-print("你的天命邦德是",result)
+print("Your Bond is:",result)

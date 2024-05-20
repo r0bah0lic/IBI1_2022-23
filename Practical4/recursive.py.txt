@@ -1,7 +1,0 @@
-a=4 #initial number
-i=0
-while i<5: #run 5 times
-    i+=1
-    print(a)
-    b=2*a+3
-    a=b

@@ -1,6 +1,0 @@
-a=5
-i=0
-while a <= 90:
-    i+=1
-    a=a*2
-print("I could rest for",i,"days")
