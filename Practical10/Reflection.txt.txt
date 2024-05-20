@@ -1,0 +1,6 @@
+The practical is a bit hard for me. 
+Drawing the heat map is a very new experience, which is both interesting and challenging. Finding proper and simple ways to
+reach a single goal demands high on the understanding of related functions. For example, I struggled much before finding
+out the use of 'transpose' and 'nonzero', becaouse I tried to express the same meaning with many 'while' and 'if'.
+One important thing I learned is that define functions can prevent many errors brought by nested functions, for instance, 
+a 'for' in another 'for' is easy to mix the results.

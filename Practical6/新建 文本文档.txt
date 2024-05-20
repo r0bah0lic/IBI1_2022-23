@@ -1,0 +1,3 @@
+activity={'sleeping','classes','studying','TV','music','other'}
+time={8,6,3.5,2,1,3.5}
+dic={'sleeping':8,'classes':6,'studying':3.5,'TV':2,'music':1,'other':3.5}

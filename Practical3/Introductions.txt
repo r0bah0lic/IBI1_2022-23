@@ -1,5 +1,5 @@
-Hello. 
-My name is Rob.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
-I am happy that I can push my repo from Visual Studio Code to GitHub
+Hello! 
+I'm exPAIMON!
+I like french fries!
+I am enjoying IBI1!
+I am happy that I can push my work forward
